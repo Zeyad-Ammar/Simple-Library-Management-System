@@ -1,75 +1,81 @@
-Simple Library Management System (C++)
+<h1>Simple Library Management System (C++)</h1>
 
 A console-based Library Management System implemented in C++.
 This project was built as a practice exercise while learning data structures, structs, STL containers, and system design in C++.
 The system allows managing books and users, borrowing and returning books, and searching the library collection.
 
-Features
+<h3>Features</h3>
+<img width="449" height="365" alt="image" src="https://github.com/user-attachments/assets/7f101108-e482-4439-951b-344e93c0ee48" />
 
-Add new books to the library
-Add new users
-Borrow books
-Return borrowed books
-Search books by name prefix
-Display who borrowed a specific book
-List books sorted by ID
-List books sorted by name
-Display all users and their borrowed books
+Add new books to the library<br>
+Add new users<br>
+Borrow books<br>
+Return borrowed books<br>
+Search books by name prefix<br>
+Display who borrowed a specific book<br>
+List books sorted by ID<br>
+List books sorted by name<br>
+Display all users and their borrowed books<br>
 
-System Design
+<h2>System Design</h2>
 
-The system is built using several structures:
+<h3>The system is built using several structures:</h3>
 
-stBook
-Represents a book in the library.
-Attributes:
+<h3>stBook<br></h3>
+Represents a book in the library.<br>
+
+<h4>Attributes:</h4>
 id → Book ID
 name → Book name
 quantity → Total copies
 borrowingUsers → List of users currently borrowing the book
 
-Functions:
+<h4>Functions:</h4>
 
 Borrow a book
 Return a book
-stUser
+
+<h3>stUser</h3>
+
 Represents a user of the library.
 
-Attributes:
+<h4>Attributes:</h4>
+
 id → User ID
 name → User name
 borrowedBooksIds → Set of borrowed book IDs
 
-Functions:
+<h4>Functions:</h4>
 
 Borrow a book
 Return a book
-stLibraryOperations
 
-Handles core library logic such as:
+<h3>stLibraryOperations</h3>
 
-Adding books
-Adding users
-Borrowing books
-Returning books
-Searching books
-Finding users/books
+<h4>Handles core library logic such as:</h4>
 
-stLibrarySystem
+Adding books<br>
+Adding users<br>
+Borrowing books<br>
+Returning books<br>
+Searching books<br>
+Finding users/books<br>
+
+<h3>stLibrarySystem</h3>
 
 Handles the user interface and menu interaction.
 
-Concepts Practiced
+<h3>Concepts Practiced</h3>
 
 This project helped me practice:
 
-C++ Structs
-STL containers
-vector
-set
-Algorithms
-sort
-find
-Basic object-like design using structs
-Searching and sorting
-Menu-driven console systems
+C++ Structs<br>
+STL containers<br>
+vector<br>
+set<br>
+Algorithms<br>
+sort<br>
+find<br>
+Basic object-like design using structs<br>
+Searching and sorting<br>
+Menu-driven console systems<br>
